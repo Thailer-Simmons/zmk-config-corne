@@ -37,7 +37,7 @@
             bindings = <
 &kp TAB           &trans    &kp UP    &trans     &trans  &trans       &kp N7   &kp N8  &kp N9    &kp PLUS   &kp ASTERISK  &kp BSPC
 &kp LEFT_CONTROL  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &mo 4        &kp N4   &kp N5  &kp N6    &kp MINUS  &kp CARET     &trans
-&kp LSHFT         &trans    &trans    &trans     &trans  &to 5        &kp N1   &kp N2  &kp N3    &kp N0     &kp SLASH     &kp EQUAL
+&kp LSHFT         &trans    &trans    &trans     &trans  &to 0        &kp N1   &kp N2  &kp N3    &kp N0     &kp SLASH     &kp EQUAL
                                       &kp LGUI   &to 0   &kp SPACE    &kp RET  &to 2   &kp RALT
             >;
         };
@@ -52,7 +52,7 @@
             bindings = <
 &kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
 &kp LCTRL  &trans    &trans  &trans    &trans    &mo 4        &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT  &trans    &trans  &trans    &trans    &to 5        &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
+&kp LSHFT  &trans    &trans  &trans    &trans    &to 0        &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
                              &kp LGUI  &to 0     &kp SPACE    &kp RET    &to 3      &kp RALT
             >;
         };
@@ -61,7 +61,7 @@
             bindings = <
 &kp F1     &kp F2  &kp F3  &kp F4    &kp F5  &kp F6       &kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
 &kp LSHFT  &trans  &trans  &trans    &trans  &mo 4        &trans     &trans  &trans  &trans   &trans   &trans
-&kp LCTRL  &trans  &trans  &trans    &trans  &to 5        &trans     &trans  &trans  &trans   &trans   &trans
+&kp LCTRL  &trans  &trans  &trans    &trans  &to 0        &trans     &trans  &trans  &trans   &trans   &trans
                            &kp LALT  &to 0   &kp SPACE    &kp ENTER  &to 0   &trans
             >;
         };
@@ -72,15 +72,6 @@
 &bt BT_CLR    &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans
                                           &trans        &trans        &trans    &trans  &trans  &trans
-            >;
-        };
-
-        LoL_gamer {
-            bindings = <
-&kp ESC           &kp Q  &kp W  &kp E   &kp R   &kp T        &kp Y   &kp U  &kp I      &kp O    &kp P     &trans
-&kp TAB           &kp A  &kp S  &kp D   &kp F   &kp G        &kp H   &kp J  &kp K      &kp L    &kp SEMI  &kp F4
-&kp LEFT_CONTROL  &kp Z  &kp X  &kp C   &kp V   &kp B        &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RALT
-                                &kp N1  &kp N2  &kp SPACE    &trans  &to 0  &trans
             >;
         };
     };
